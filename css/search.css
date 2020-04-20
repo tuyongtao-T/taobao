@@ -1,0 +1,131 @@
+.search {
+	width: 100%;
+	height: 121px;
+	padding-top: 24px;
+	box-sizing: border-box;
+}
+
+.main {
+	width: 1190px;
+	height: 88px;
+	color: #3C3C3C;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 8px;
+	width: 190px;
+	height: 88px;
+	float: left;
+}
+.mid-search {
+	width: 630px;
+	margin-left: 68px;
+    float: left;
+}
+.search-class {
+	width: 630px;
+	height: 62px;
+}
+.top-search {
+	width: 621px;
+	height: 22px;
+	margin-left: 17px;
+}
+.top-search li{
+	display: inline-block;
+	width: 36px;
+	height: 22px;
+	line-height: 22px;
+	float: left;
+	margin-right: 4px;
+	font-weight: 700;
+	text-align: center;
+	border-radius: 3px;
+	color: #ff9000;
+	cursor: pointer;
+}
+.b-active {
+	background-image: linear-gradient(to right,#ff9000 0,#ff5000 100%) !important;
+	color: white !important;
+}
+.top-search li:hover {
+	background: #FFEEE5;
+}
+.in-search {
+	width: 100%;
+	height: 36px;
+}
+.left-search {
+	position: relative;
+	width: 554px;
+	height: 100%;
+	float: left;
+	border: 2px solid #FF4200;
+	border-bottom-left-radius: 18px;
+	border-top-left-radius: 18px;
+	border-right: none;
+}	
+.button-search button{
+	width: 74px;
+	height: 40px;
+	float: left;
+	background-image: linear-gradient(to right,#ff9000 0,#ff5000 100%) !important;
+	border-bottom-right-radius: 18px;
+	border-top-right-radius: 18px;
+	cursor: pointer;
+	font-size: 18px;
+    font-weight: 700;
+    color: #FFF;
+}
+.left-search div:nth-child(1) {
+	width: 472px;
+	height: 36px;
+	float: left;
+	padding: 6px 0;
+	box-sizing: border-box;
+}	
+.left-search div:nth-child(2) {
+	width: 75px;
+	height: 36px;
+	float: left;
+	padding-top: 10px;
+	padding-left: 48px;
+	box-sizing: border-box;
+}
+#sou{
+	display: block;
+	position: absolute;
+	height: 24px;
+	top: 10px;
+	left: 12px;
+}
+.fa {
+	font-weight: lighter;
+	font-size: 14px;
+	color: #6C6C6C;
+}
+.left-search input {
+	margin-left: 5px;
+    text-indent: 5px;
+    height: 24px;
+    line-height: 24px;
+    width: 472px;
+    font-size: 12px;
+    color: #6C6C6C;
+}
+.c-search a {
+	display: inline-block;
+	margin-right: 2px;
+	margin-top: 6px;
+	color: #3C3C3C;
+}
+.c-search a:hover {
+	color: #ff5000;
+}
+
+
+
+
+
+
